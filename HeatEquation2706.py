@@ -108,7 +108,7 @@ t_fin = tau(M_in)
 
    
 #test
-num =100 #number of points in the mesh
+num =10 #number of points in the mesh
 mesh = mesh_r(0, 20000000,num)
 T_mesh = T_in *np.ones(len(mesh))
 
